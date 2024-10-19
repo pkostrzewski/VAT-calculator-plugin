@@ -29,3 +29,18 @@ Upon submission, the calculated gross amount and tax amount will be displayed. A
 ## Translation
 
 The plugin supports multiple languages. To add translations, place your `.mo` and `.po` files in the `languages` directory. The plugin currently includes Polish (PL) and English (US) translations.
+
+## Screenshots
+
+### 1. Adding Shortcode View
+![add shortcode view](./screenshots/screenshot_1.png)
+
+### 2. View of the Added Form
+![view of the added form](./screenshots/screenshot_2.png)
+
+### 3. View of Saved Calculations
+![view of saved calculations](./screenshots/screenshot_3.png)
+
+### 4. Single Enum View
+![single enum view](./screenshots/screenshot_4.png)
+
