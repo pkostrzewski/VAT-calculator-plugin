@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-10-21 18:58+0200\n"
+"PO-Revision-Date: 2024-10-21 18:58+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/ajax.php:16
+msgid "Invalid input data"
+msgstr "Nieprawidłowe dane wejściowe"
+
+#: includes/ajax.php:33
+#, php-format
+msgid "Error creating post: %s"
+msgstr "Błąd podczas tworzenia posta: %s"
+
+#: includes/ajax.php:45
+#, php-format
+msgid ""
+"The product <strong>%s</strong> is VAT exempt (0%%). The gross amount is "
+"<strong>%s zł</strong>."
+msgstr ""
+"Produkt <strong>%s</strong> jest zwolniony z podatku VAT (0%%). Kwota brutto "
+"wynosi <strong>%s zł</strong>."
+
+#: includes/ajax.php:49
+#, php-format
+msgid ""
+"The product <strong>%s</strong> is not subject to VAT. The gross amount is "
+"<strong>%s zł</strong>."
+msgstr ""
+"Produkt <strong>%s</strong> nie podlega opodatkowaniu podatkiem VAT. Kwota "
+"brutto wynosi <strong>%s zł</strong>."
+
+#: includes/ajax.php:53
+#, php-format
+msgid ""
+"The product <strong>%s</strong> is taxable but does not incur VAT. The gross "
+"amount is <strong>%s zł</strong>."
+msgstr ""
+"The product <strong>%s</strong> is taxable but does not incur VAT. The gross "
+"amount is <strong>%s zł</strong>."
+
+#: includes/ajax.php:66
+#, php-format
+msgid ""
+"The price of the product <strong>%s</strong> is: <strong>%s zł gross</"
+"strong>, the tax amount is <strong>%s zł</strong>."
+msgstr ""
+"Cena produktu <strong>%s</strong> wynosi:&nbsp;<strong>%s zł brutto</"
+"strong>, kwota&nbsp;podatku&nbsp;to&nbsp;<strong>%s&nbsp;zł</strong>."
+
+#: includes/cpt.php:5 includes/cpt.php:7
+msgid "VAT Calculations"
+msgstr "Kalkulacje VAT"
+
+#: includes/cpt.php:6 includes/cpt.php:8
+msgid "VAT Calculation"
+msgstr "Kalkulacja VAT"
+
+#: includes/cpt.php:29
+msgid "Title"
+msgstr "Tytuł"
+
+#: includes/cpt.php:30
+msgid "Net Amount"
+msgstr "Kwota Netto"
+
+#: includes/cpt.php:31
+msgid "Gross Amount"
+msgstr "Kwota Brutto"
+
+#: includes/cpt.php:32
+msgid "VAT Rate"
+msgstr "Stawka VAT"
+
+#: includes/cpt.php:33
+msgid "Client IP"
+msgstr "IP klienta"
+
+#: includes/cpt.php:34
+msgid "Date"
+msgstr "Data"
+
+#: includes/enqueue-scripts.php:14
+msgid "Please fill in all fields correctly."
+msgstr "Proszę poprawnie wypełnić wszystkie pola."
+
+#: includes/enqueue-scripts.php:16
+msgid "Error during calculations."
+msgstr "Błąd podczas obliczeń."
+
+#: includes/metaboxes.php:6
+msgid "Calculation Details"
+msgstr "Szczegóły wyliczenia"
+
+#: includes/metaboxes.php:19
+msgid "Net Amount:"
+msgstr "Kwota Netto:"
+
+#: includes/metaboxes.php:24 includes/shortcode.php:23
+msgid "VAT Rate:"
+msgstr "Stawka VAT:"
+
+#: includes/metaboxes.php:29
+msgid "Gross Amount:"
+msgstr "Kwota Brutto:"
+
+#: includes/metaboxes.php:34
+msgid "Client IP:"
+msgstr "IP klienta:"
+
+#: includes/metaboxes.php:39
+msgid "Calculation Date:"
+msgstr "Data wyliczenia:"
+
+#: includes/shortcode.php:11
+msgid "Product Name:"
+msgstr "Nazwa produktu:"
+
+#: includes/shortcode.php:15
+msgid "Net Amount (PLN):"
+msgstr "Kwota netto (PLN):"
+
+#: includes/shortcode.php:19
+msgid "Currency:"
+msgstr "Waluta:"
+
+#: includes/shortcode.php:37
+msgid "Calculate"
+msgstr "Oblicz"
+
+#~ msgid "IP Address"
+#~ msgstr "Adres IP"
+
+#~ msgid "Publication Date"
+#~ msgstr "Data publikacji"
+
+#~ msgid "IP Address:"
+#~ msgstr "Adres IP:"
+
+#~ msgid "PLN"
+#~ msgstr "PLN"
+
+#~ msgid "23%"
+#~ msgstr "23%"
+
+#~ msgid "22%"
+#~ msgstr "22%"
+
+#~ msgid "8%"
+#~ msgstr "8%"
+
+#~ msgid "7%"
+#~ msgstr "7%"
+
+#~ msgid "5%"
+#~ msgstr "5%"
+
+#~ msgid "3%"
+#~ msgstr "3%"
+
+#~ msgid "0%"
+#~ msgstr "0%"
+
+#~ msgid "ZW"
+#~ msgstr "ZW"
+
+#~ msgid "NP"
+#~ msgstr "NP"
+
+#~ msgid "OO"
+#~ msgstr "OO"
