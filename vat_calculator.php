@@ -2,7 +2,7 @@
 /*
 Plugin Name: VAT Calculator
 Description: VAT calculator with calculating different tax rates and saving calculations to Custom Post Type 'VAT Calculations'
-Version: 1.0
+Version: 1.0.2
 Author: Iron Brand Piotr Kostrzewski
 */
 
