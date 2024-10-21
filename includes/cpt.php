@@ -2,10 +2,10 @@
 // Register Custom Post Type 'VAT Calculations' for saving form data
 function vat_register_custom_post_type() {
     $labels = array(
-        'name' => __('Kalkulacje VAT', 'vat_calculator'),
-        'singular_name' => __('Kalkulacje VAT', 'vat_calculator'),
-        'menu_name' => __('Kalkulacje VAT', 'vat_calculator'),
-        'name_admin_bar' => __('Kalkulacja VAT', 'vat_calculator'),
+        'name' => __('VAT Calculations', 'vat_calculator'),
+        'singular_name' => __('VAT Calculation', 'vat_calculator'),
+        'menu_name' => __('VAT Calculations', 'vat_calculator'),
+        'name_admin_bar' => __('VAT Calculation', 'vat_calculator'),
     );
 
     $args = array(
@@ -26,12 +26,12 @@ add_action('manage_vat_calculation_posts_custom_column', 'vat_custom_vat_calcula
 function vat_set_custom_edit_vat_calculation_columns($columns) {
     return array(
         'cb' => '<input type="checkbox" />',
-        'title' => __('Tytuł', 'vat_calculator'),
-        'net_amount' => __('Kwota Netto', 'vat_calculator'),
-        'gross_amount' => __('Kwota Brutto', 'vat_calculator'),
-        'vat_rate' => __('Stawka VAT', 'vat_calculator'),
-        'client_ip' => __('Adres IP', 'vat_calculator'),
-        'date' => __('Data publikacji', 'vat_calculator')
+        'title' => __('Title', 'vat_calculator'),
+        'net_amount' => __('Net Amount', 'vat_calculator'),
+        'gross_amount' => __('Gross Amount', 'vat_calculator'),
+        'vat_rate' => __('VAT Rate', 'vat_calculator'),
+        'client_ip' => __('Client IP', 'vat_calculator'),
+        'date' => __('Date', 'vat_calculator')
     );
 }
 
@@ -39,21 +39,24 @@ function vat_set_custom_edit_vat_calculation_columns($columns) {
 function vat_custom_vat_calculation_column($column, $post_id) {
     switch ($column) {
         case 'net_amount':
-            echo esc_html(get_post_meta($post_id, 'net_amount', true)) . ' PLN';
+            $net_amount = get_post_meta($post_id, 'net_amount', true);
+            echo esc_html($net_amount !== '' ? $net_amount . ' PLN' : 'N/A');
             break;
         case 'gross_amount':
-            echo esc_html(get_post_meta($post_id, 'gross_amount', true)) . ' PLN';
+            $gross_amount = get_post_meta($post_id, 'gross_amount', true);
+            echo esc_html($gross_amount !== '' ? $gross_amount . ' PLN' : 'N/A');
             break;
         case 'vat_rate':
             $vat_rate = get_post_meta($post_id, 'vat_rate', true);
             if (is_numeric($vat_rate)) {
                 echo esc_html($vat_rate) . '%';
             } else {
-                echo esc_html($vat_rate);
+                echo esc_html($vat_rate !== '' ? $vat_rate : 'N/A');
             }
             break;
         case 'client_ip':
-            echo esc_html(get_post_meta($post_id, 'client_ip', true));
+            $client_ip = get_post_meta($post_id, 'client_ip', true);
+            echo esc_html($client_ip !== '' ? $client_ip : 'N/A');
             break;
     }
 }
