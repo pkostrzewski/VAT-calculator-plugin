@@ -31,7 +31,7 @@ function vat_set_custom_edit_vat_calculation_columns($columns) {
         'gross_amount' => __('Gross Amount', 'vat_calculator'),
         'vat_rate' => __('VAT Rate', 'vat_calculator'),
         'client_ip' => __('Client IP', 'vat_calculator'),
-        'date' => __('Date', 'vat_calculator')
+        'date' => __('Date', 'vat_calculator'),
     );
 }
 
